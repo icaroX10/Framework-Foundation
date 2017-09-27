@@ -1,0 +1,68 @@
+<!DOCTYPEHTML>
+  <html>
+    <head>
+      <link rel="stylesheet" href="css/foundation.css">
+      <link rel="stylesheet" href="formscss.css">
+    </head>
+    <title>Formulario Foundation</title>
+      <body>
+      	<h3> 
+      		Criando formulários com HTML
+      	   </h3>
+        <h4>
+          <p>Você pode ter entradas tamanho usando os tamanhos das colunas, como .large-6, .small-6.Você pode criar elementos de linha dentro de seu formulário e usar colunas para o formulário, incluindo entradas, rótulos e muito mais. As linhas dentro de um formulário herdam algum preenchimento especial para aumentar o espaçamento das entradas.</p>
+          <p>Este é um formulário de exemplo que criamos, que é projetado usando a grade:,</p>
+         </h4>
+    
+      	<form>
+  <div class="row">
+    <div class="large-6 columns">
+      <label>Etiqueta de Entrada
+        <input type="text" placeholder="large-6.columns" />
+      </label>
+    </div>
+  </div>
+  <div class="row">
+    <div class="large-4 columns">
+      <label>Etiqueta de entrada
+        <input type="text" placeholder="large-2.columns" />
+      </label>
+    </div>
+  <div class="row">
+    <div class="large-12 columns">
+      <label>Seleciona Menus
+        <select>
+          <option value="Apresentação de Framework Foundation"></option>
+          <option value="hudson">Hudson</option>
+          <option value="icaro">Icaro</option>
+          <option value="nayrã">Nayrã</option>
+        </select>
+      </label>
+    </div>
+  </div>
+  <div class="row">
+    <div class="large-6 columns">
+      <label>Escolha sua cor Favorita</label>
+  <div class="row">
+      <input type="radio" name="pokemon" value="Red" id="pokemonRed"><label for="pokemonRed">Vermelho</label>
+      <input type="radio" name="pokemon" value="Blue" id="pokemonBlue"><label for="pokemonBlue">Azul</label>
+    </div>
+    <div class="large-6 columns">
+      <label>Selecionar opções</label>
+      <input id="checkbox1" type="checkbox"><label for="checkbox1">Salvador</label>
+      <input id="checkbox2" type="checkbox"><label for="checkbox2">Bahia</label>
+    </div>
+  </div>
+  <div class="row">
+    <div class="large-12 columns">
+      <label>Digite o texto:
+       <p><textarea placeholder="texto"></textarea></p>
+      </label>
+    </div>
+  </div>
+</form>
+
+
+        
+      		 		    	
+   </body>
