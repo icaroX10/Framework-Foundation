@@ -23,7 +23,7 @@
 	font-weight: bold;
 	text-transform: uppercase;
 }
-.menu .is-active > a{
+.header .menu .is-active > a{
 	background: rgba(255,255,255,0.5);
 
 }
