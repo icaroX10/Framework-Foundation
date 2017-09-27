@@ -73,6 +73,66 @@
               <li><a>About</a></li>
               <li><a>Nachos</a></li>
             </ul>
+            <hr/>
+            <h4 class="sub-title">Menu Responsivo</h4> 
+            <p>O Menu possui algumas classes CSS, que permitem reorientar um menu em diferentes tamanhos de tela.</p>
+            <img src="../img/list08.jpg">
+
+            <h5>Exemplos</h5>
+            <ul class="vertical medium-horizontal menu">
+              <li><a href="#0"><i class="fi-list"></i> <span>One</span></a></li>
+              <li><a href="#0"><i class="fi-list"></i> <span>Two</span></a></li>
+              <li><a href="#0"><i class="fi-list"></i> <span>Three</span></a></li>
+              <li><a href="#0"><i class="fi-list"></i> <span>Four</span></a></li>
+            </ul>
+            <hr/>
+            <h4 class="sub-title">Barra Top - Header - Basico</h4> 
+            <p>Uma barra superior (.top-bar) pode ter duas opções: colocar no lado esquerdo (.top-bar-left) ou colocar no lado direito(.top-bar-right). Em telas pequenas, essas seções se acumulam uma sobre a outra..</p>
+            <img src="../img/list09.jpg">
+
+            <h5>Exemplos</h5>
+
+            <div class="top-bar">
+              <div class="top-bar-left">
+                <ul class="dropdown menu" data-dropdown-menu>
+                  <li class="menu-text">Site Title</li>
+                  <li>
+                    <a href="#">One</a>
+                    <ul class="menu vertical">
+                      <li><a href="#">One</a></li>
+                      <li><a href="#">Two</a></li>
+                      <li><a href="#">Three</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">Two</a></li>
+                  <li><a href="#">Three</a></li>
+                </ul>
+              </div>
+              <div class="top-bar-right">
+                <ul class="menu">
+                  <li><input type="search" placeholder="Search"></li>
+                  <li><button type="button" class="button">Search</button></li>
+                </ul>
+              </div>
+            </div>
+            <hr/>
+            <h4 class="sub-title">Paginação</h4> 
+            <p>Uma lista de paginação é apenas uma <'ul'> com a classe .pagination, e uma série de pares <'li'> / <'a'>. Adicione a classe .corrente a um <'li'> para marcar a página atual, ou .disabled para adicionar estilos desativados a um link.</p>
+            <img src="../img/list10.jpg">
+
+            <h5>Exemplos</h5>
+            <ul class="pagination" role="navigation" aria-label="Pagination">
+              <li class="pagination-previous disabled">Previous <span class="show-for-sr">page</span></li>
+              <li class="current"><span class="show-for-sr">You're on page</span> 1</li>
+              <li><a href="#" aria-label="Page 2">2</a></li>
+              <li><a href="#" aria-label="Page 3">3</a></li>
+              <li><a href="#" aria-label="Page 4">4</a></li>
+              <li class="ellipsis" aria-hidden="true"></li>
+              <li><a href="#" aria-label="Page 12">12</a></li>
+              <li><a href="#" aria-label="Page 13">13</a></li>
+              <li class="pagination-next"><a href="#" aria-label="Next page">Next <span class="show-for-sr">page</span></a></li>
+            </ul>
+
           </div>
       </div>
 
